@@ -1,0 +1,5 @@
+version: "2.1"
+services:
+  test:
+    image: compose-nodejs:latest
+    command: npm -v
