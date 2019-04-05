@@ -7,4 +7,4 @@ RUN apk add --no-cache bash
 RUN apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main nodejs
 RUN apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main npm
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/sh","-c"]
